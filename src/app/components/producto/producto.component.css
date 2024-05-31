@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #777;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-wrap {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.portfolio-wrap:hover {
+    transform: translateY(-10px);
+}
+
+.portfolio-wrap img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-info h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.portfolio-links {
+    margin-top: 15px;
+}
+
+.portfolio-links a {
+    color: #ff5722;
+    font-size: 24px;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.portfolio-links a:hover {
+    color: #ff784e;
+}
+
+.portfolio-lightbox {
+    cursor: pointer;
+}
